@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme    {
+   
+    /*TAMBAN CUSTOM UNTUK WARNA*/
+    --color-primary: oklch(70.4% 0.14 182.503);
+    --color-dark: oklch(12.9% 0.042 264.695);
+    --color-paragraf: oklch(44.6% 0.043 257.281);
+    --color-secondary: oklch(45.6% 0.043 257.281);
+    
+}
+.hamburger-line {
+    @apply w-[38px] h-[2px] my-2 block bg-dark
+}
